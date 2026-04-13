@@ -1,0 +1,22 @@
+# Go (Backend)
+backend/bin/
+backend/main
+backend/*.exe
+backend/*.test
+backend/*.prof
+backend/*.out
+backend/.env
+backend/vendor/
+
+# Vue 3 / Vite (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/*.local
+frontend/*.log
+
+# General
+.DS_Store
+*.log
+.env
+.idea/
+.vscode/
