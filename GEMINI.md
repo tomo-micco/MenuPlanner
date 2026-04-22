@@ -20,6 +20,7 @@
 ### フロントエンド
 
 - 基本方針: Vue 3 Composition API (`<script setup>`) を使用する。
+- API通信: 外部ライブラリ（axios等）は原則使用せず、ブラウザ標準の `fetch` API を使用すること。
 - 命名規則:
     - コンポーネント名: `PascalCase` (例: `UserProfile.vue`)
     - 変数・関数名: `camelCase`
